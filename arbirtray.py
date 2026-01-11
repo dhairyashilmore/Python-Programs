@@ -1,3 +1,8 @@
+#arbirtray arguments : arguments which can take any number of arguments
+#type of arguments : positional , keyword , arbitary , default ,  keyword arbitary   
+#Purpose of arbitary arguments : when we dont know how many arguments will be passed in function
+#syntax : def function_name(*args):
+
 def sum(n1,n2):
       return n1+n2
 print(sum(10,20))
